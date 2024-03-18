@@ -11136,9 +11136,10 @@ p {
 .service-card {
   position: relative;
   min-height: 230px;
-  border: 1px solid #dee2e6;
+  border: 2px solid #004953;
   overflow: hidden;
-  border-radius: 3px;
+  border-radius: 20px;
+  margin-bottom: 20px;
 
 }
 
@@ -11152,8 +11153,8 @@ p {
 }
 
 .service-card .body img.icon {
-  margin-top: 40px;
-  width: 55px;
+  margin-top: 10px;
+  width: 75px;
   margin-bottom: 25px;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
@@ -11193,16 +11194,18 @@ p {
   opacity: 1;
   visibility: visible;
 }
-
-/*/ portfolio wrapper */
+/*
+ portfolio wrapper 
 .portfolio-card {
   display: block;
   position: relative;
   overflow: hidden;
+  
 }
 
 .portfolio-card .portfolio-card-img {
   width: 100%;
+  
 }
 
 .portfolio-card .portfolio-card-overlay {
@@ -11223,6 +11226,7 @@ p {
   height: 0;
   border-radius: 50%;
   overflow: hidden;
+  
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -11241,6 +11245,7 @@ p {
   -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
   width: 100%;
+  
 }
 
 .portfolio-card:hover .portfolio-card-overlay {
@@ -11249,8 +11254,9 @@ p {
   width: 100%;
   height: 100%;
   border-radius: 0;
+  border: 20px black;
 }
-
+-->
 @media (max-width: 767.98px) {
   .portfolio-card {
     margin-bottom: 30px;
@@ -11259,7 +11265,7 @@ p {
     margin-bottom: 30px;
   }
 }
-
+*/
 /* Pricing card */
 .pricing-wrapper {
   display: -webkit-box;
@@ -12246,14 +12252,16 @@ pre .code {
 .section-lg {
   padding: 100px 0 !important;
 }
+
 .example {
   position: relative;
   padding: 0;
-  width: 300px;
+  width: 350px;
   display: block;
   cursor: pointer;
   overflow: hidden;
-  border: black;
+  border: 1px solid #004953;
+  border-radius: 25px;
   
 }
 
@@ -12266,7 +12274,7 @@ pre .code {
   color: #1c87c9;
   border: black;
   background-color: rgba(200, 200, 200, 0.5);
-  width: 300px;
+  width: 350px;
   height: 300px;
   -webkit-transition: all 400ms ease-out;
   -moz-transition: all 400ms ease-out;
@@ -12279,6 +12287,7 @@ pre .code {
 .example .content:hover {
   opacity: 0.9;
   background: white;
+
 }
 
 .example .content .text {
@@ -12300,8 +12309,10 @@ pre .code {
 	width: 90%;
 	margin: 0px;
 	display: grid;
-	grid-template-columns: repeat(8,auto);
-	grid-gap: 10px;
+	grid-template-columns: repeat(6,auto);
+	grid-gap: 20px;
 	justify-content: center;
-    justify-items: center;
+    justify-items: center;/*
+	border-radius: 50px;
+	border: 2px solid #004953;*/
 }
