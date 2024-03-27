@@ -1,3 +1,5 @@
+
+
 @charset "UTF-8";
 /*!
 =========================================================
@@ -12193,11 +12195,17 @@ pre .code {
   min-width: 400px;
   max-width: 400px;
   margin-right: 20px;
+  padding-top: 50px; 
+  padding-right: 50px;   
 }
 
 .about-img-holder .about-img {
   width: 100%;
+  
   margin-bottom: 15px;
+  margin-top: 15px;
+  border: 2px solid black;
+  border-radius: 25px;
 }
 
 .about-caption {
@@ -12222,6 +12230,7 @@ pre .code {
     width: 100%;
     margin: auto;
     margin-bottom: 20px;
+
   }
 }
 
