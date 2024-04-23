@@ -12195,7 +12195,7 @@ pre .code {
   min-width: 400px;
   max-width: 400px;
   margin-right: 20px;
-  padding-top: 50px; 
+  padding-top: 250px; 
   padding-right: 50px;   
 }
 
@@ -12204,7 +12204,7 @@ pre .code {
   
   margin-bottom: 15px;
   margin-top: 15px;
-  border: 2px solid black;
+  border: 2px solid #004953;
   border-radius: 25px;
 }
 
