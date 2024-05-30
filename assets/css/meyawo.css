@@ -11085,7 +11085,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .my-font {
-  font-family: 'Baloo Paaji', cursive;
+  font-family: 'Roboto', cursive;
 }
 
 p {
@@ -11647,7 +11647,7 @@ pre .code {
           align-items: center;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
-  font-family: 'Baloo Paaji', cursive;
+  font-family: 'Roboto', cursive;
 }
 
 @media (prefers-reduced-motion: reduce) {
